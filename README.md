@@ -51,6 +51,15 @@ i personaly use btrfs bcz on gentoo with -O3 u wanna backup every second. if you
 
 another day i thought my dolphin file manager sucks, i decided to compare it to pcmanfm(-qt). copying 25.3 GiB (27,126,149,909) folder with 104,625 files, 9,719 sub-folders to external hdd via usb took dolphin 4m 15s, pcmanfm did it in 5m 4s. disk was 60% full but i dont think thats the thing, neither is fragmentation. i will test how fast `cp -pr` do the job when i have access to this hard drive next time. testing this on my m2 ssds makes no sense, results are too random. 
 
+upd
+| program | time | time |
+| --- | --- | --- |
+| dolphin | 4m 15s | 7m 1s |
+| pcmanfm-qt | 5m 4s | 9m 50s |
+| cp-pr | 6m 38s | 5m 19s |
+
+why are u so random :<
+
 # DISTROS
 
 the place for holywars
